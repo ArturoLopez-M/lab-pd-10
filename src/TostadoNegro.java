@@ -1,7 +1,7 @@
 public class TostadoNegro implements Cafe{
     private String tamano;
 
-    public TostadoNegro(String tamaño) {
+    public TostadoNegro(String tamano) {
         // Verificamos si la letra no es ninguna de las permitidas
         if (!tamano.equals("N") && !tamano.equals("M") && !tamano.equals("G")) {
             // Esto "lanza" el error rojo en la consola y detiene el programa
