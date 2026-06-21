@@ -4,4 +4,9 @@ public abstract class Decorator implements Cafe {
     public Decorator(Cafe cafe) {
         this.cafe = cafe;
     }
+
+    @Override
+    public String getTamano() {
+        return cafe.getTamano();
+    }
 }
