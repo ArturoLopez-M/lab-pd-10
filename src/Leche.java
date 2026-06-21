@@ -2,6 +2,7 @@ public class Leche extends Decorator{
  public Leche(Cafe cafe){
      super(cafe);
  }
+
     @Override
     public String getDescripcion() {
         return cafe.getDescripcion() + ", leche";
@@ -9,7 +10,10 @@ public class Leche extends Decorator{
 
     @Override
     public double costo() {
-        return cafe.costo() + 0.10;
+        double extra =  0.10;
+        if (cafe.getTamano().equals("M")) extra = 0.15;
+        else if (cafe.getTamano().equals("G")) extra = 0.20;
+        return cafe.costo() + extra;
     }
 }
 
