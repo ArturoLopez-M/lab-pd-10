@@ -4,10 +4,10 @@ public class Crema extends Decorator{
     }
     @Override
     public String getDescripcion() {
-        return cafe.getDescripcion() + "crema";
+        return cafe.getDescripcion() + ", crema";
         }
     @Override
     public double costo() {
-        return costo() + 0.10;
+        return cafe.costo() + 0.10;
         }
     }

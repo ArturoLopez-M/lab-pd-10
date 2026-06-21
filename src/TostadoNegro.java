@@ -1,7 +1,7 @@
 public class TostadoNegro implements Cafe {
     @Override
     public String getDescripcion() {
-        return "café tostado negro con";
+        return "café tostado negro";
     }
 
     @Override

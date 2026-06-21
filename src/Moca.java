@@ -4,7 +4,7 @@ public class Moca extends Decorator{
         }
     @Override
     public String getDescripcion() {
-        return cafe.getDescripcion() + "crema";
+        return cafe.getDescripcion() + ", moca";
         }
     @Override
     public double costo() {

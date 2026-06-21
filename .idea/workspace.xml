@@ -1,37 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="643f1bce-0a88-43e3-859e-20f71e519ccb" name="Changes" comment="" />
+    <list default="true" id="643f1bce-0a88-43e3-859e-20f71e519ccb" name="Changes" comment="feat: Implementación del Main (en proceso)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Batido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Batido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Crema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Crema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Descafeinado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Descafeinado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Moca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Moca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Soya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Soya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TostadoNegro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TostadoNegro.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArturoLopez-M&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArturoLopez-M/lab-pd-10.git&quot;,
+    &quot;accountId&quot;: &quot;9ee07569-8b42-4886-ac6f-bb55d91badd8&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0003267608563702" />
+      <entry key="MS500" value="1.2460506113568088" />
+      <entry key="S2" value="2.3722980670400347" />
+      <entry key="S5" value="3.2163451586532554" />
+      <entry key="S10" value="4.129872844998738" />
+      <entry key="S30" value="6.840606165901833" />
+      <entry key="S60" value="8.513670241729027" />
+      <entry key="M2" value="9.92481918885293" />
+      <entry key="M5" value="12.137577124387231" />
+      <entry key="M10" value="17.302525853492007" />
+      <entry key="M15" value="24.721413935092162" />
+      <entry key="M30" value="46.71815567355484" />
+      <entry key="H1" value="73.91829419797298" />
+      <entry key="H2" value="96.72069759539596" />
+      <entry key="H4" value="111.75730080608531" />
+      <entry key="D1" value="126.70605717005802" />
+      <entry key="W1" value="129.522778353722" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="7.145701318064053E-291" />
+      <entry key="S5" value="8.742143754754755E-117" />
+      <entry key="S10" value="9.349943184188207E-59" />
+      <entry key="S30" value="4.538750648253896E-20" />
+      <entry key="S60" value="2.1304343801835248E-10" />
+      <entry key="M2" value="1.4596032081673168E-5" />
+      <entry key="M5" value="0.011727409677786387" />
+      <entry key="M10" value="0.1260617578091001" />
+      <entry key="M15" value="0.33934127968674693" />
+      <entry key="M30" value="1.2080801427007515" />
+      <entry key="H1" value="2.5909697433636554" />
+      <entry key="H2" value="3.9087875040239988" />
+      <entry key="H4" value="4.832954244185027" />
+      <entry key="D1" value="5.785981525063421" />
+      <entry key="W1" value="5.968909210791741" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.43847439078284733" />
+      <entry key="MS500" value="1.0643594952746636" />
+      <entry key="S2" value="2.2301076798590285" />
+      <entry key="S5" value="3.1090156431372966" />
+      <entry key="S10" value="4.054760294799738" />
+      <entry key="S30" value="6.794826549077951" />
+      <entry key="S60" value="8.483216997417058" />
+      <entry key="M2" value="9.905258836904647" />
+      <entry key="M5" value="12.137659725788344" />
+      <entry key="M10" value="17.419009588263485" />
+      <entry key="M15" value="25.05058492139779" />
+      <entry key="M30" value="47.91447526453858" />
+      <entry key="H1" value="76.49865880313654" />
+      <entry key="H2" value="100.6220692640499" />
+      <entry key="H4" value="116.58582924277972" />
+      <entry key="D1" value="132.49118004434504" />
+      <entry key="W1" value="135.49156161458885" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3FPA3fhCTjBQCJEl8l8q0XQrZyj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab-pd-10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,6 +168,49 @@
       <updated>1781966134174</updated>
       <workItem from="1781966136029" duration="57000" />
     </task>
+    <task id="LOCAL-00001" summary="Iniciando Repositorio">
+      <option name="closed" value="true" />
+      <created>1781966271273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781966271273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Creando Interfaz Cafe e implementando sus clases concretas">
+      <option name="closed" value="true" />
+      <created>1781970360201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781970360201</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Implementando clase Abstracta para los decoradores del Cafe">
+      <option name="closed" value="true" />
+      <created>1781970411200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781970411201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Implementación del Main (en proceso)">
+      <option name="closed" value="true" />
+      <created>1781970438010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781970438010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Iniciando Repositorio" />
+    <MESSAGE value="feat: Creando Interfaz Cafe e implementando sus clases concretas" />
+    <MESSAGE value="feat: Implementando clase Abstracta para los decoradores del Cafe" />
+    <MESSAGE value="feat: Implementación del Main (en proceso)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implementación del Main (en proceso)" />
   </component>
 </project>
